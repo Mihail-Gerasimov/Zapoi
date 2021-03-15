@@ -1,0 +1,424 @@
+@media (max-width: 1500px) {
+    /* header */
+    .big-picture {
+        right: -100px;
+        width: 420px;
+    }
+    /* header */
+}
+
+@media (max-width: 1450px) {
+    /* header */
+    /* .container-nav {
+        width: 80%;
+    } */
+    .header-title {
+        font-size: 50px;
+        line-height: 130%;
+        margin-top: 110px;
+    }
+    .header-title__psevdo::before {
+        left: -490px;
+        bottom: -4px;
+        height: 60px;
+    }
+    .med-car {
+        width: 350px;
+        top: 71%;
+    }
+    .big-picture {
+        right: -50px;
+        width: 375px;
+    }
+    /* header */
+}
+
+@media (max-width: 1300px) {
+    /* header */
+    .header-title {
+        margin-bottom: 30px;
+        font-size: 45px;
+        line-height: 120%;
+        margin-top: 70px;
+    }
+    .header-title__psevdo::before {
+        left: -560px;
+        bottom: -4px;
+        height: 54px;
+    }
+    .header-presentation__item {
+        margin-right: 10px;
+    }
+    .header-presentation {
+        margin-bottom: 45px;
+    }
+    .header-input {
+        width: 180px;
+    }
+    .header-form__btn {
+        width: 180px;
+    }
+    .med-car {
+        top: 68%;
+        width: 280px;
+    }
+    .big-picture {
+        right: 10px;
+        width: 350px;
+    }
+    /* header */
+}
+
+@media (max-width: 1070px) {
+    /* header */
+    .header-title {
+        font-size: 40px;
+        line-height: 110%;
+    }
+    .header-title__psevdo::before {
+        left: -590px;
+        bottom: -3px;
+        height: 45px;
+    }
+    .header-presentation__text {
+        font-size: 9px;
+        line-height: 100%;
+        width: 76px;
+    }
+    .header-presentation {
+        margin-bottom: 40px;
+    }
+    .header-form__text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .header-form__top {
+        padding: 10px 25px;
+    }
+    .header-input {
+        width: 155px;
+    }
+    .header-form__btn {
+        width: 155px;
+    }
+    .label-radio {
+        padding-left: 26px;
+    }
+    .med-car {
+        top: 69%;
+        width: 250px;
+    }
+    .big-picture {
+        right: -5px;
+        width: 320px;
+        bottom: -117px;
+    }
+    /* header */
+}
+
+@media (max-width: 991px) {
+    /* header */
+    .header-title {
+        font-size: 34px;
+        line-height: 110%;
+        margin-top: 40px;
+    }
+    .header-title__psevdo::before {
+        left: -640px;
+        bottom: 0px;
+        height: 37px;
+    }
+    .header-form__top {
+        padding: 7px 10px;
+    }
+    .header-input {
+        width: 140px;
+    }
+    .header-form__btn {
+        width: 145px;
+    }
+    .custom-radio--text {
+        width: 300px;
+    }
+    .med-car {
+        top: 73%;
+        width: 240px;
+    }
+    .big-picture {
+        right: 7px;
+        width: 280px;
+        bottom: -119px;
+    }
+    /* header */
+}
+
+@media (max-width: 910px) {
+    /* header */
+    .header-presentation {
+        margin-bottom: 20px;
+    }
+    .med-car {
+        right: 46%;
+        top: 83%;
+        width: 150px;
+    }
+    .big-picture {
+        right: 0px;
+        width: 240px;
+    }
+    /* header */
+}
+
+@media (max-width: 767px) {
+    /* navigation */
+    .navbar-collapse {
+        z-index: 100;
+        width: 100% !important;
+        position: absolute;
+        transform: translateX(-50%);
+        top: 64px;
+        left: 50%;
+        background-color: whitesmoke;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-link {
+        font-size: 20px;
+        line-height: 25px;
+        border-right: none;
+    }
+    /* navigation */
+    /* header */
+    .header {
+        padding-bottom: 0px;
+        box-shadow: none;
+        position: relative;
+    }
+    .header::before {
+        position: absolute;
+        width: 100%;
+        background: transparent;
+        box-shadow: 0px 2px 5px rgb(0 0 0 / 16%);
+        display: table;
+        height: 2.5px;
+        border-bottom: 2.5px solid #e8e8e8;
+        content: '';
+        top: 67%;
+        left: 0%;
+    }
+    .container-nav {
+        padding: 0 100px;
+    }
+    .header-content {
+        margin-bottom: 120px;
+    }
+    .header-title {
+        margin-top: 60px;
+        /* font-size: 25px;
+        line-height: 120%; */
+    }
+    .header-title__psevdo::before {
+        /* left: -716px;
+        height: 26px; */
+    }
+    .big-picture {
+        transform: translateY(25%);
+        right: 0px;
+        width: 290px;
+        bottom: -7px;
+    }
+    .med-car {
+        right: 0;
+        top: 0;
+        transform: translateY(42%);
+        width: 240px;
+    }
+    .header-presentation {
+        margin-bottom: 0px;
+        flex-direction: column;
+        align-items: center !important;
+    }
+    .header-presentation__item {
+        flex-direction: row !important;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .header-presentation__item:last-child {
+        margin-bottom: 0px;
+    }
+    .header-presentation__picture {
+        margin-bottom: 0px !important;
+        margin-right: 20px;
+        /* width: 40px; */
+    }
+    .header-presentation__text {
+        text-align: inherit;
+        font-size: 13px;
+    }
+    .header-form {
+        margin: 0 auto;
+        width: fit-content;
+        padding: 18px 33px;
+        border: 0.3px solid #BDBDBD;
+        box-shadow: 0px 1px 5px rgb(0 0 0 / 20%);
+        border-radius: 2px;
+        background: #FFFFFF;
+        opacity: 0.95;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .header-form__top {
+        padding: 0;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        background: none;
+        opacity: 1;
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-input {
+        width: 220px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .header-form__btn {
+        width: 220px;
+    }
+    .header-form__text {
+        width: 205px;
+        text-align: center;
+    }
+    .label-radio {
+        align-items: end;
+        display: flex;
+        padding-left: 0px;
+    }
+    .custom-radio--text {
+        width: 196px;
+    }
+    /* header */
+}
+
+@media (max-width: 680px) {
+    /* header */
+    .container-nav {
+        padding: 0 60px;
+    }
+    /* header */
+}
+
+@media (max-width: 600px) {
+    /* header */
+    .big-picture {
+        bottom: -12px;
+    }
+    .container-nav {
+        padding: 20px;
+    }
+    /* header */
+}
+
+@media (max-width: 525px) {
+    /* header */
+    .header-title {
+        font-size: 30px;
+    }
+    .header-title__psevdo::before {
+        left: -679px;
+        height: 30px;
+    }
+    .header-presentation__item {
+        margin-bottom: 10px;
+    }
+    .med-car {
+        transform: translateY(42%);
+        width: 200px;
+    }
+    .big-picture {
+        transform: translateY(25%);
+        width: 265px;
+        bottom: 0px;
+    }
+    .header::before {
+        top: 63%;
+    }
+    /* header */
+}
+
+@media (max-width: 475px) {
+    /* header */
+    .header::before {
+        top: 57%;
+    }
+    .header-title {
+        font-size: 25px;
+        line-height: 110%;
+    }
+    .header-title__psevdo::before {
+        left: -717px;
+        bottom: 0px;
+        height: 26px;
+    }
+    .header-presentation__picture {
+        margin-right: 10px;
+        width: 40px;
+    }
+    .header-presentation__text {
+        font-size: 12px;
+    }
+    .header-presentation__item {
+        margin-bottom: 10px;
+    }
+    .big-picture {
+        transform: translateY(19%);
+        width: 195px;
+        bottom: -19px;
+    }
+    .med-car {
+        transform: translateY(47%);
+        width: 183px;
+    }
+    /* header */
+}
+
+@media (max-width: 405px) {
+    /* header */
+    .container-nav {
+        padding: 10px;
+    }
+    .header-title {
+        font-size: 20px;
+        line-height: 110%;
+    }
+    .header-title__psevdo::before {
+        left: -754px;
+        height: 20px;
+    }
+    .med-car {
+        transform: translateY(68%);
+        width: 140px;
+        right: -7px;
+    }
+    .big-picture {
+        transform: translateY(19%);
+        width: 160px;
+        bottom: -5px;
+    }
+    .header::before {
+        top: 56%;
+    }
+    .header-content {
+        margin-bottom: 90px;
+    }
+    .header-presentation__text {
+        font-size: 9px;
+    }
+    /* header */
+}
