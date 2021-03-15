@@ -118,6 +118,9 @@
 
 @media (max-width: 991px) {
     /* header */
+    /* .header {
+        margin-bottom: 100px;
+    } */
     .header-title {
         font-size: 34px;
         line-height: 110%;
@@ -196,6 +199,7 @@
         padding-bottom: 0px;
         box-shadow: none;
         position: relative;
+        /* margin-bottom: 80px; */
     }
     .header::before {
         position: absolute;
@@ -312,6 +316,9 @@
 
 @media (max-width: 600px) {
     /* header */
+    /* .header {
+        margin-bottom: 50px;
+    } */
     .big-picture {
         bottom: -12px;
     }
