@@ -169,11 +169,6 @@ button:focus {
     background-position: center;
 }
 
-.header-content {
-    /* padding-top: 190px;
-    padding-bottom: 39px; */
-}
-
 .header-title {
     font-weight: 900;
     font-size: 55px;
@@ -265,6 +260,10 @@ button:focus {
     line-height: 13px;
     color: #E0E0E0;
     box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.26);
+}
+
+.header-input:hover:focus {
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.26) !important;
 }
 
 .header-input__number {
