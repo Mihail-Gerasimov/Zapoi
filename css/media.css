@@ -220,10 +220,6 @@
         /* font-size: 25px;
         line-height: 120%; */
     }
-    .header-title__psevdo::before {
-        /* left: -716px;
-        height: 26px; */
-    }
     .big-picture {
         transform: translateY(25%);
         right: 0px;
@@ -379,7 +375,7 @@
     .big-picture {
         transform: translateY(19%);
         width: 195px;
-        bottom: -19px;
+        bottom: -17.5px;
     }
     .med-car {
         transform: translateY(47%);
@@ -409,7 +405,7 @@
     .big-picture {
         transform: translateY(19%);
         width: 160px;
-        bottom: -5px;
+        bottom: -4px;
     }
     .header::before {
         top: 56%;
