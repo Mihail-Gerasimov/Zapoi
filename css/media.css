@@ -190,6 +190,10 @@
 
 @media (max-width: 767px) {
     /* navigation */
+    .choice {
+        padding-top: 80px;
+        z-index: 1;
+    }
     .navbar-collapse {
         z-index: 100;
         width: 100% !important;
@@ -371,6 +375,10 @@
 
 @media (max-width: 576px) {
     /* choice */
+    .choice {
+        padding-top: 50px;
+        z-index: 1;
+    }
     .why__block--item {
         flex-direction: column;
         margin-right: 0px;
