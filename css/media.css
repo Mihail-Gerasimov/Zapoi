@@ -375,6 +375,7 @@
         flex-direction: column;
         margin-right: 0px;
         width: 165px;
+        max-width: 165px;
         padding-right: 0px;
         height: 165px;
         padding-top: 0px;
@@ -470,11 +471,11 @@
         margin-right: 10px;
     }
     .why-picture {
-        margin-top: -4px;
-        margin-bottom: 13px;
+        margin-top: 8px;
+        margin-bottom: 8px;
     }
     .why__block--item {
-        margin-bottom: 15px !important;
+        margin-bottom: 10px !important;
         width: 134px;
         height: 170px;
         justify-content: flex-start;
