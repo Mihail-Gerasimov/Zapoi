@@ -169,6 +169,11 @@
         bottom: -119px;
     }
     /* header */
+    /* warranty */
+    .warranty-fon {
+        right: -200px;
+    }
+    /* warranty */
 }
 
 @media (max-width: 910px) {
@@ -349,6 +354,24 @@
         line-height: 100%;
     }
     /* choice */
+    /* warranty */
+    .warranty-fon {
+        right: -5px;
+    }
+    .warranty-numbers {
+        width: 425px;
+    }
+    .warranty-numbers__text {
+        width: 345px;
+    }
+    .warranty-numbers__item {
+        margin-right: 0px;
+        margin-bottom: 30px !important;
+    }
+    .warranty-numbers__item:last-child {
+        margin-bottom: 0px !important;
+    }
+    /* warranty */
 }
 
 @media (max-width: 680px) {
@@ -435,7 +458,7 @@
 @media (max-width: 475px) {
     /* header */
     .header::before {
-        top: 57%;
+        top: 56.7%;
     }
     .header-title {
         font-size: 25px;
@@ -459,7 +482,7 @@
     .big-picture {
         transform: translateY(19%);
         width: 195px;
-        bottom: -17.5px;
+        bottom: -17px;
     }
     .med-car {
         transform: translateY(47%);
@@ -492,6 +515,25 @@
         width: 120px;
     }
     /* choice */
+    /* warranty */
+    .warranty-fon {
+        right: 0px;
+    }
+    .warranty-numbers {
+        width: 280px;
+    }
+    .warranty-numbers__text {
+        width: 230px;
+        font-size: 11px;
+        line-height: 125%;
+        margin-left: -18px;
+    }
+    .warranty-subtitle {
+        font-size: 36px;
+        width: 70px;
+        height: 70px;
+    }
+    /* warranty */
 }
 
 @media (max-width: 405px) {
