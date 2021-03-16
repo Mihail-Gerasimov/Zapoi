@@ -475,6 +475,7 @@ button:focus {
     padding-bottom: 70px;
     margin-bottom: 50px;
     margin-top: 35px;
+    padding-top: 50px;
 }
 
 .warranty-fon {
@@ -487,7 +488,9 @@ button:focus {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    opacity: 0.6;
+    opacity: 0.7;
+    background-position-y: 0px;
+    background-position-x: -225px;
 }
 
 .warranty-numbers {

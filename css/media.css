@@ -356,6 +356,7 @@
     /* choice */
     /* warranty */
     .warranty-fon {
+        background-position-x: -690px;
         right: -5px;
     }
     .warranty-numbers {
@@ -517,7 +518,10 @@
     /* choice */
     /* warranty */
     .warranty-fon {
-        right: 0px;
+        background-size: 711px;
+        right: -1px;
+        background-position-y: center;
+        background-position-x: -204px;
     }
     .warranty-numbers {
         width: 280px;
