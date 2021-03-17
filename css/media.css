@@ -33,6 +33,49 @@
     /* header */
 }
 
+@media (max-width: 1400px) {
+    /* monye*/
+    .title-money {
+        margin-bottom: 60px;
+    }
+    .dropper {
+        top: -9px;
+        width: 70px;
+        transform: none;
+    }
+    .dropper-fon {
+        width: 108px;
+        z-index: -1;
+        top: -14px;
+        left: 0px;
+    }
+    .medical {
+        width: 565px;
+        right: 0px;
+        bottom: -19px;
+    }
+    /* .money-prices {
+        padding: 0 40px;
+        height: 300px;
+        margin-bottom: 65px;
+    } */
+    .money-prices__sum {
+        padding: 12px 55px;
+        font-size: 30px;
+    }
+    .express-blokc {
+        margin-right: 40px;
+    }
+    .all-day__help {
+        font-size: 20px;
+        width: 300px;
+    }
+    .money-number {
+        font-size: 20px;
+    }
+    /* monye*/
+}
+
 @media (max-width: 1300px) {
     /* header */
     .header-title {
@@ -83,6 +126,23 @@
         padding-right: 40px;
     }
     /* choice */
+    /* money */
+    .all-day__help {
+        font-size: 17px;
+        width: 255px;
+    }
+    .medical {
+        width: 530px;
+        right: 0px;
+        bottom: -26px;
+    }
+    .money-line {
+        height: 88px;
+    }
+    .express-blokc {
+        height: 95px;
+    }
+    /* money */
 }
 
 @media (max-width: 1070px) {
@@ -174,6 +234,61 @@
         right: -200px;
     }
     /* warranty */
+    /* money */
+    .money-prices {
+        z-index: 2;
+        padding: 0 65px;
+        height: 250px;
+        margin-bottom: 50px;
+    }
+    .money-prices__text {
+        font-size: 14px;
+    }
+    .money-prices__sum {
+        padding: 10px 35px;
+        font-size: 20px;
+    }
+    .dropper-fon {
+        width: 87px;
+        z-index: -1;
+        top: -11px;
+        left: 0px;
+    }
+    .dropper {
+        top: -5px;
+        width: 46px;
+        transform: none;
+    }
+    .money-line {
+        height: 88px;
+        display: flex;
+        align-items: center;
+    }
+    .express-blokc {
+        height: 69px;
+        margin-top: 0px;
+        width: 210px;
+    }
+    .pipette {
+        width: 35px;
+        right: -10px;
+        top: 0;
+    }
+    .all-day__help {
+        font-size: 14px;
+        width: 210px;
+    }
+    .money-number {
+        font-size: 14px;
+        height: 30px;
+        padding: 0 40px;
+    }
+    .medical {
+        width: 485px;
+        right: 0px;
+        bottom: -27px;
+    }
+    /* money */
 }
 
 @media (max-width: 910px) {
@@ -191,6 +306,13 @@
         width: 240px;
     }
     /* header */
+    /* money */
+    .medical {
+        width: 410px;
+        right: 0px;
+        bottom: -11px;
+    }
+    /* money */
 }
 
 @media (max-width: 767px) {
@@ -373,6 +495,70 @@
         margin-bottom: 0px !important;
     }
     /* warranty */
+    /* money */
+    .money {
+        overflow: hidden;
+        z-index: 1;
+    }
+    .title-money {
+        margin-bottom: 50px;
+    }
+    .money-prices {
+        margin-left: -20px;
+        padding: 0 34px;
+        height: 250px;
+        margin-bottom: 25px;
+    }
+    .money-prices__sum {
+        padding: 10px 35px;
+        font-size: 15px;
+    }
+    .dropper-fon {
+        width: 75px;
+        z-index: -1;
+        top: -11px;
+        left: 0px;
+        transform: translateX(-50%);
+    }
+    .dropper {
+        top: -5px;
+        width: 36px;
+        transform: translateX(-50%);
+    }
+    .all-help {
+        justify-content: flex-start !important;
+    }
+    .express-blokc {
+        margin-left: -65px;
+        height: 58px;
+        margin-top: 0px;
+        width: 210px;
+    }
+    .logo-money {
+        width: 95px;
+    }
+    .pipette {
+        width: 30px;
+        right: -9px;
+        top: 0;
+    }
+    .money-number {
+        width: fit-content;
+        font-size: 11px;
+        height: 22px;
+        padding: 0 30px;
+    }
+    .all-day__help {
+        font-size: 11px;
+        margin-bottom: 3px;
+        width: 165px;
+    }
+    .medical {
+        width: 416px;
+        right: -36px;
+        bottom: -17px;
+    }
+    /* money */
 }
 
 @media (max-width: 680px) {
@@ -381,6 +567,13 @@
         padding: 0 60px;
     }
     /* header */
+    /* money */
+    .medical {
+        width: 320px;
+        right: -46px;
+        bottom: 3px;
+    }
+    /* money */
 }
 
 @media (max-width: 600px) {
@@ -427,6 +620,14 @@
         width: 150px;
     }
     /* choice */
+    /* money */
+    .medical-mobile {
+        z-index: 5;
+        width: 330px;
+        right: -100px;
+        bottom: 46px;
+    }
+    /* money */
 }
 
 @media (max-width: 525px) {
@@ -538,6 +739,36 @@
         height: 70px;
     }
     /* warranty */
+    /* money */
+    .medical-mobile {
+        z-index: 5;
+        width: auto;
+        right: -100px;
+        bottom: 55px;
+    }
+    /* money */
+}
+
+@media (max-width: 430px) {
+    /* money */
+    .money-prices {
+        margin-left: -20px;
+        padding: 0 20px;
+        height: 240px;
+    }
+    .money-prices__text {
+        font-size: 10px;
+    }
+    .money-prices__sum {
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+    .express-blokc {
+        margin-left: -42px;
+        width: 150px;
+        margin-right: 5px;
+    }
+    /* money */
 }
 
 @media (max-width: 405px) {
