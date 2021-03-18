@@ -748,3 +748,62 @@ button:focus {
 
 
 /* figures */
+
+
+/* sobriety-express */
+
+.title-sobriety {
+    margin-bottom: 75px;
+}
+
+.title-block__sobriety {
+    color: #0072BC;
+}
+
+.express-picture {
+    margin-right: 120px;
+    z-index: 2;
+    width: fit-content;
+}
+
+.express-picture__orange {
+    width: 395px;
+    height: 365px;
+    top: -10px;
+    right: -10px;
+    background: #FF5023;
+    z-index: -1;
+}
+
+.catheter {
+    z-index: 1;
+}
+
+.express-picture__blue {
+    width: 395px;
+    height: 360px;
+    left: -10px;
+    bottom: -10px;
+    background: #0072BC;
+    z-index: -1;
+}
+
+.express__text--presentation {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 155%;
+    width: 475px;
+    margin-bottom: 30px;
+}
+
+.sobriety-express__information {
+    margin-bottom: 120px;
+}
+
+.express__text--presentation:last-child {
+    margin-bottom: 0px;
+}
+
+
+/* sobriety-express */

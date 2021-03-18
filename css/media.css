@@ -143,6 +143,27 @@
         height: 95px;
     }
     /* money */
+    /* sobriety-express */
+    .catheter {
+        width: 350px;
+    }
+    .express-picture__orange {
+        width: 290px;
+        height: 260px;
+    }
+    .express-picture__blue {
+        width: 290px;
+        height: 260px;
+    }
+    .express-picture {
+        margin-right: 80px;
+    }
+    .express__text--presentation {
+        font-size: 15px;
+        line-height: 140%;
+        width: 375px;
+    }
+    /* sobriety-express */
 }
 
 @media (max-width: 1070px) {
@@ -289,6 +310,28 @@
         bottom: -27px;
     }
     /* money */
+    /* sobriety-express */
+    .express-picture {
+        margin-right: 50px;
+    }
+    .catheter {
+        width: 320px;
+    }
+    .express-picture__blue {
+        width: 265px;
+        height: 230px;
+    }
+    .express-picture__orange {
+        width: 265px;
+        height: 230px;
+    }
+    .express__text--presentation {
+        font-size: 14px;
+        line-height: 130%;
+        width: 350px;
+        margin-bottom: 20px;
+    }
+    /* sobriety-express */
 }
 
 @media (max-width: 910px) {
@@ -578,6 +621,21 @@
         font-size: 12px;
     }
     /* figures */
+    /* sobriety-express */
+    .title-sobriety {
+        width: 300px;
+    }
+    .sobriety-express__information {
+        flex-direction: column;
+    }
+    .express-picture {
+        margin-bottom: 40px;
+        margin-right: 0px;
+    }
+    .express__text--presentation {
+        text-align: center;
+    }
+    /* sobriety-express */
 }
 
 @media (max-width: 680px) {
@@ -779,6 +837,11 @@
     .figures-card__item {
         width: 180px;
     }
+    /* sobriety-express */
+    .title-sobriety {
+        width: 230px;
+    }
+    /* sobriety-express */
 }
 
 @media (max-width: 430px) {
@@ -841,4 +904,21 @@
         width: 134px;
     }
     /* figures */
+    /* sobriety-express */
+    .catheter {
+        width: 260px;
+    }
+    .express-picture__blue {
+        width: 220px;
+        height: 190px;
+    }
+    .express-picture__orange {
+        width: 220px;
+        height: 190px;
+    }
+    .express__text--presentation {
+        font-size: 13px;
+        width: 270px;
+    }
+    /* sobriety-express */
 }
