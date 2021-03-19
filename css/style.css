@@ -752,6 +752,16 @@ button:focus {
 
 /* sobriety-express */
 
+.sobriety-express {
+    background-image: url(../img/sobriety-express/sobriety-fon.png);
+    background-size: 1235px, 500px;
+    background-repeat: no-repeat;
+    padding-bottom: 65px;
+    margin-bottom: 65px;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
 .title-sobriety {
     margin-bottom: 75px;
 }
@@ -807,3 +817,60 @@ button:focus {
 
 
 /* sobriety-express */
+
+
+/* success */
+
+.success {
+    padding-bottom: 55px;
+}
+
+.title-success {
+    margin-bottom: 75px;
+}
+
+.reviews {
+    margin-bottom: 80px;
+}
+
+.reviews-card {
+    margin: 0 auto;
+    max-width: 275px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(1, 74, 129, 0.5);
+}
+
+.reviews-text {
+    padding: 10px 14px 15px;
+}
+
+.reviews-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FF5023;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.reviews-name::before {
+    position: absolute;
+    display: table;
+    content: '';
+    top: 20px;
+    left: 0;
+    width: 85px;
+    height: 1px;
+    background-color: #0072BC;
+}
+
+.reviews-information {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 126%;
+}
+
+
+/* success */

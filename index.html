@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="./libs/slick-1.8.1/slick/slick.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
     <!-- font-family: 'Roboto', sans-serif; -->
@@ -300,14 +301,63 @@
                 </div>
             </div>
         </section>
-        <section class="success"></section>
+        <section class="success">
+            <div class="container">
+                <h2 class="title-success title-block">Получилось у них, получится и <span class="title-block__color">у вас</span></h2>
+
+
+                <div class="reviews  autoplay d-flex justify-content-between flex-wrap position-relative">
+                    <div class="reviews-card d-flex flex-column">
+                        <img class="reviews-img" src="./img/success/one-rewievs.png" alt="">
+                        <div class="reviews-text">
+                            <p class="reviews-name">Перепёлкин Владимир</p>
+                            <p class="reviews-information">Последний запой перенес тяжело. Хорошо, что бригада врачей приехала быстро: поставили капельницу, и уже через несколько часов мое самочувствие улучшилось. Доктор очень внимательный, подробно расписал, какие лекарства и как
+                                пить, назначил диету, предложил обратиться в клинику. Думаю пройти лечение, чтобы полностью бросить пить.</p>
+                        </div>
+                    </div>
+                    <div class="reviews-card d-flex flex-column">
+                        <img class="reviews-img" src="./img/success/two-rewievs.png" alt="">
+                        <div class="reviews-text">
+                            <p class="reviews-name">Анисимов Валерий</p>
+                            <p class="reviews-information">После праздников никак не получалось выйти из запоя самостоятельно, а на работу нужно идти. Обратился в клинику – вызывал врача на дом. Все очень цивилизованно. Врач приехал со всем необходимым, был со мной в квартире, пока
+                                полностью не прокапала капельница. Объяснил, что еще можно попить, чтоб нормально себя чувствовать.</p>
+                        </div>
+                    </div>
+                    <div class="reviews-card d-flex flex-column">
+                        <img class="reviews-img" src="./img/success/three-rewievs.png" alt="">
+                        <div class="reviews-text">
+                            <p class="reviews-name">Корнеенко Наталья</p>
+                            <p class="reviews-information">К сожалению, мой муж страдает хроническим алкоголизмом, с периодическим уходом в длительные запои. Уже второй раз вынуждена обращаться в клинику с этой проблемой. Хочу выразить свою признательность врачам клиники за готовность
+                                помочь и профессиональную работу</p>
+                        </div>
+                    </div>
+                    <div class="reviews-card d-flex flex-column">
+                        <img class="reviews-img" src="./img/success/four-rewievs.png" alt="">
+                        <div class="reviews-text">
+                            <p class="reviews-name">Соколова Марина</p>
+                            <p class="reviews-information">Наш сын больше двух недель находился в длительном запое и никак не соглашался обратиться в больницу. По нашему вызову врач приехал прямо на дом, осмотрел сына, и очень быстро провел все необходимые манипуляции. Уже через несколько
+                                часов состояние нашего сына улучшилось, а после второй капельницы похмелье прошло полностью. </p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="prev-str position-absolute">
+                    <img src="./img/success/right-ar.jpg" alt="">
+                </div>
+                <div class="next-str position-absolute">
+                    <img src="./img/success/left-ar.png" alt="">
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="footer"></footer>
-
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <script src="./libs/jquery/jquery.js"></script>
+    <script src="./libs/slick-1.8.1/slick/slick.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
