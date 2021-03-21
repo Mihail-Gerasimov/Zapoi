@@ -27,4 +27,18 @@ $(document).ready(function() {
     }
     // $('.advantages__card:nth-child(2) .crad--picture').addClass("mb-3");
 
+    const element = document.querySelector('#element'),
+        progress = document.querySelector('.step__progress__inner');
+
+    progress.style.width = `${document.documentElement.clientWidth * 100 / element.scrollWidth}%`;
+
+    window.addEventListener('resize', () => {
+        progress.style.width = `${document.documentElement.clientWidth * 100 / element.scrollWidth}%`;
+    });
+
+    element.addEventListener('scroll', () => {
+        progress.style.width = `${(element.scrollLeft + document.documentElement.clientWidth) * 100 / element.scrollWidth}%`;
+        console.log();
+    });
+
 });

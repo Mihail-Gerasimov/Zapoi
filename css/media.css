@@ -110,6 +110,12 @@
         width: 350px;
     }
     /* header */
+    /* helps */
+    .big-help {
+        right: 0px;
+        bottom: 0;
+    }
+    /* helps */
 }
 
 @media (max-width: 1200px) {
@@ -250,6 +256,14 @@
         bottom: -117px;
     }
     /* header */
+    /* footer */
+    .footer-text__two {
+        margin: 10px auto 10px !important;
+    }
+    .footer-text__one {
+        margin: 10px auto 10px !important;
+    }
+    /* footer */
 }
 
 @media (max-width: 991px) {
@@ -424,6 +438,40 @@
         margin-bottom: 20px;
     }
     /* sobriety-express */
+    /* helps */
+    .help-block__subtitle {
+        font-size: 13px;
+    }
+    .help-block__picture {
+        margin-right: 10px;
+    }
+    .help-block--text {
+        width: 140px;
+        font-size: 10px;
+    }
+    .free-anon {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .big-number__help {
+        margin-top: 30px;
+    }
+    .bit-number-title {
+        font-size: 35px;
+        line-height: 130%;
+    }
+    .bit-text__help {
+        font-size: 12px;
+        line-height: 135%;
+    }
+    .help-form__top {
+        padding: 15px 15px;
+    }
+    .big-help {
+        right: 30px;
+        width: 240px;
+    }
+    /* helps */
 }
 
 @media (max-width: 910px) {
@@ -739,6 +787,56 @@
         font-size: 11px;
     }
     /* success */
+    /* helps */
+    .big-help {
+        display: none;
+    }
+    .help-blokc {
+        margin-bottom: 50px;
+    }
+    .help-block--text {
+        width: 125px;
+    }
+    .help-block__picture {
+        width: 40px;
+    }
+    .form-block__helper {
+        margin: 0 auto;
+    }
+    .free-anon {
+        margin: 0 auto;
+        width: 325px;
+        text-align: center;
+    }
+    .help-form__top {
+        border: none;
+        box-shadow: none;
+        flex-direction: column;
+    }
+    .bit-number-title {
+        text-align: center;
+        font-size: 30px;
+    }
+    .mobile-help {
+        right: 0;
+        top: 60px;
+        display: block !important;
+        position: absolute;
+    }
+    /* helps */
+    /* footer */
+    .footer-text__two {
+        width: auto;
+        text-align: center;
+    }
+    .footer-text__one {
+        width: auto;
+        text-align: center;
+    }
+    /* footer */
+    .fixed-number {
+        width: 130px;
+    }
 }
 
 @media (max-width: 680px) {
@@ -754,6 +852,15 @@
         bottom: 3px;
     }
     /* money */
+    /* helps */
+    .help-blokc {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .help-block__item {
+        margin: 0 8px 20px;
+    }
+    /* helps */
 }
 
 @media (max-width: 600px) {
@@ -819,6 +926,9 @@
     }
     /* success */
     /* success */
+    .fixed-number {
+        width: 99px;
+    }
 }
 
 @media (max-width: 525px) {
@@ -988,6 +1098,45 @@
         display: block;
     }
     /* success */
+    /* helps */
+    .help-blokc {
+        width: fit-content;
+        display: block !important;
+        flex-wrap: nowrap;
+        justify-content: start;
+        margin: 0 auto 50px;
+    }
+    .free-anon {
+        margin: 0 auto;
+        width: 250px;
+        text-align: center;
+    }
+    .help-block__item {
+        margin: 0 0 30px;
+    }
+    .help-block--text {
+        width: 190px;
+        font-size: 13px;
+    }
+    .bit-text__help {
+        width: 155px;
+        margin: 0 auto 35px;
+    }
+    /* helps */
+    .footer-text__two {
+        width: auto;
+        text-align: start;
+        margin: 0;
+    }
+    .footer-text__one {
+        width: auto;
+        text-align: start;
+        margin: 0;
+    }
+    .footer-text {
+        font-size: 12px;
+    }
+    /* footer */
 }
 
 @media (max-width: 430px) {
@@ -1079,4 +1228,17 @@
         left: 30px;
     }
     /* success */
+    /* helps */
+    .title-help {
+        margin-bottom: 30px;
+        width: 175px;
+    }
+    .help-blokc {
+        margin: 0 0 50px;
+    }
+    /* footer */
+    .footer-text {
+        font-size: 9px;
+    }
+    /* footer */
 }
