@@ -15,13 +15,14 @@ $(document).ready(function() {
         $('.autoplay').slick({
             infinite: false,
             dots: false,
+            autoplay: true,
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: true,
             centerMode: false,
             centerPadding: '15px',
-            prevArrow: $('.prev-str'),
-            nextArrow: $('.next-str')
+            prevArrow: $('.next-str'),
+            nextArrow: $('.prev-str')
         });
     }
     // $('.advantages__card:nth-child(2) .crad--picture').addClass("mb-3");

@@ -538,6 +538,7 @@ button:focus {
 
 .money {
     z-index: 1;
+    margin-bottom: 45px;
 }
 
 .money-fon {
@@ -681,10 +682,129 @@ button:focus {
 /* money */
 
 
+/* step */
+
+.step {
+    padding-top: 80px;
+    padding-bottom: 205px;
+    background-image: url(../img/step/step-fon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+    background-size: cover;
+}
+
+.title-step {
+    margin-bottom: 80px;
+}
+
+.elements {
+    margin-bottom: 25px;
+}
+
+.elements-item {
+    padding: 20px;
+    width: 172px;
+    height: 172px;
+    border: 2px #2F2F2F;
+    border-style: dashed;
+    border-radius: 50%;
+    margin-bottom: 12px;
+    /* transform: matrix(0.71, -0.71, 0.71, 0.71, 0, 0); */
+}
+
+.element-general {
+    z-index: 7;
+}
+
+.element-general:nth-child(2) {
+    z-index: 6;
+}
+
+.element-general:nth-child(3) {
+    z-index: 5;
+}
+
+.element-general:nth-child(4) {
+    z-index: 4;
+}
+
+.element-general:nth-child(5) {
+    z-index: 3;
+}
+
+.element-general:nth-child(6) {
+    z-index: 2;
+}
+
+.element-general:nth-child(7) {
+    z-index: 1;
+}
+
+.elements-item__picture {
+    bottom: -5px;
+    right: -40px;
+}
+
+.element-item__block {
+    background: #F2F2F3;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.elements-item__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 144px;
+    line-height: 110%;
+    color: #0072BC;
+    opacity: 0.2;
+    left: -14px;
+    bottom: -29px;
+}
+
+.element-general__list {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    width: 160px;
+    margin-bottom: 17px;
+    position: relative;
+}
+
+.element-general__list::before {
+    position: absolute;
+    content: '';
+    display: table;
+    width: 60px;
+    height: 1px;
+    bottom: -10px;
+    left: 0;
+    transform: translateX(75%);
+    background-color: #0072BC;
+}
+
+.element-general__list--text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: center;
+    width: 160px;
+}
+
+
+/* step */
+
+
 /* figures */
 
 .figures {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 50px;
 }
 
@@ -822,7 +942,12 @@ button:focus {
 /* success */
 
 .success {
+    background-image: url(../img/success/success-fon.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: cover;
     padding-bottom: 55px;
+    margin-bottom: 50px;
 }
 
 .title-success {
@@ -870,6 +995,18 @@ button:focus {
     font-weight: normal;
     font-size: 12px;
     line-height: 126%;
+}
+
+.prev-str {
+    bottom: -30px;
+    left: 120px;
+    display: none;
+}
+
+.next-str {
+    bottom: -30px;
+    left: 62px;
+    display: none;
 }
 
 

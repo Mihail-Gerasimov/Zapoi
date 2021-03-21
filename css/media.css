@@ -143,6 +143,40 @@
         height: 95px;
     }
     /* money */
+    /* steps */
+    .elements-item {
+        padding: 15px;
+        width: 135px;
+        height: 135px;
+        margin-bottom: 12px;
+    }
+    .elements-item__title {
+        font-size: 119px;
+        left: -16px;
+        bottom: -25px;
+    }
+    .elements-item__picture--center {
+        width: 50px;
+    }
+    .elements-item__picture {
+        bottom: -5px;
+        right: -29px;
+        width: 95px;
+    }
+    .element-general__list {
+        font-size: 13px;
+        line-height: 120%;
+        width: 130px;
+    }
+    .element-general__list::before {
+        width: 50px;
+        transform: translateX(75%);
+    }
+    .element-general__list--text {
+        font-size: 10px;
+        width: 130px;
+    }
+    /* steps */
     /* sobriety-express */
     .catheter {
         width: 350px;
@@ -315,6 +349,58 @@
         bottom: -27px;
     }
     /* money */
+    /* steps */
+    .elements-item {
+        padding: 20px;
+        width: 172px;
+        height: 172px;
+    }
+    .elements-item__title {
+        font-size: 144px;
+        left: -14px;
+        bottom: -29px;
+    }
+    .elements-item__picture--center {
+        width: auto;
+    }
+    .elements-item__picture {
+        bottom: -5px;
+        right: -40px;
+        width: auto;
+    }
+    .element-general__list {
+        font-size: 16px;
+        line-height: 120%;
+        width: 160px;
+    }
+    .element-general__list::before {
+        width: 60px;
+        transform: translateX(75%);
+    }
+    .element-general__list--text {
+        font-size: 12px;
+        width: 160px;
+    }
+    .overflow-x {
+        display: flex;
+        overflow-x: scroll;
+    }
+    #element::-webkit-scrollbar {
+        width: 100%;
+        height: 2px;
+    }
+    #element::-webkit-scrollbar-track {
+        box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.19);
+        background-color: #E0E0E0;
+        height: 2.5px;
+        border-radius: 10px;
+    }
+    #element::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        height: 5px;
+        background: #0072BC;
+    }
+    /* steps */
     /* sobriety-express */
     .express-picture {
         margin-right: 50px;
@@ -891,12 +977,14 @@
         overflow: inherit !important;
     }
     .prev-str {
-        bottom: 0;
-        left: 0;
+        bottom: -30px;
+        left: 120px;
+        display: block;
     }
     .next-str {
-        bottom: 0;
-        left: 0;
+        bottom: -30px;
+        left: 62px;
+        display: block;
     }
     /* success */
 }
@@ -921,7 +1009,6 @@
         margin-right: 5px;
     }
     /* money */
-    /* success */
 }
 
 @media (max-width: 405px) {
@@ -982,6 +1069,13 @@
     /* success */
     .title-success {
         width: 200px;
+    }
+    .prev-str {
+        left: 100px;
+    }
+    .next-str {
+        bottom: -30px;
+        left: 30px;
     }
     /* success */
 }
