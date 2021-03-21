@@ -26,4 +26,5 @@ $(document).ready(function() {
         });
     }
     // $('.advantages__card:nth-child(2) .crad--picture').addClass("mb-3");
+
 });
