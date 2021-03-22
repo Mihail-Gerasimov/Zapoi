@@ -555,10 +555,10 @@
         line-height: 120%; */
     }
     .big-picture {
-        transform: translateY(25%);
+        /* transform: translateY(25%); */
         right: 0px;
         width: 290px;
-        bottom: -7px;
+        bottom: -81px;
     }
     .med-car {
         right: 0;
@@ -591,7 +591,7 @@
     .header-form {
         margin: 0 auto;
         width: fit-content;
-        padding: 18px 33px;
+        padding: 15px 13px;
         border: 0.3px solid #BDBDBD;
         box-shadow: 0px 1px 5px rgb(0 0 0 / 20%);
         border-radius: 2px;
@@ -614,12 +614,13 @@
         align-items: center;
     }
     .header-input {
-        width: 220px;
+        width: 265px;
         margin-right: 0px;
         margin-bottom: 10px;
+        background-color: #fff;
     }
     .header-form__btn {
-        width: 220px;
+        width: 265px;
     }
     .header-form__text {
         width: 205px;
@@ -631,7 +632,7 @@
         padding-left: 0px;
     }
     .custom-radio--text {
-        width: 196px;
+        width: 245px;
     }
     /* header */
     /* choice */
@@ -660,6 +661,10 @@
     }
     /* choice */
     /* warranty */
+    .warranty {
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
     .warranty-fon {
         background-position-x: -690px;
         right: -5px;
@@ -742,6 +747,12 @@
         bottom: -17px;
     }
     /* money */
+    /* steps */
+    .step {
+        padding-top: 40px;
+        padding-bottom: 110px;
+    }
+    /* steps */
     /* figures */
     .figures-card__item {
         padding: 30px 0 0 30px;
@@ -775,8 +786,16 @@
     .express__text--presentation {
         text-align: center;
     }
+    .sobriety-express {
+        background-size: 770px, 415px;
+        padding-bottom: 20px;
+        margin-bottom: 50px;
+    }
     /* sobriety-express */
     /* success */
+    .success {
+        padding-bottom: 30px;
+    }
     .title-success {
         width: 415px;
     }
@@ -790,6 +809,9 @@
     /* helps */
     .big-help {
         display: none;
+    }
+    .helps .container {
+        z-index: 0;
     }
     .help-blokc {
         margin-bottom: 50px;
@@ -809,6 +831,8 @@
         text-align: center;
     }
     .help-form__top {
+        z-index: 1;
+        background-color: transparent;
         border: none;
         box-shadow: none;
         flex-direction: column;
@@ -818,6 +842,7 @@
         font-size: 30px;
     }
     .mobile-help {
+        z-index: -1;
         right: 0;
         top: 60px;
         display: block !important;
@@ -869,7 +894,7 @@
         margin-bottom: 50px;
     } */
     .big-picture {
-        bottom: -12px;
+        bottom: -87px;
     }
     .container-nav {
         padding: 20px;
@@ -948,9 +973,9 @@
         width: 200px;
     }
     .big-picture {
-        transform: translateY(25%);
+        /* transform: translateY(25%); */
         width: 265px;
-        bottom: 0px;
+        bottom: -67px;
     }
     .header::before {
         top: 63%;
@@ -988,9 +1013,9 @@
         margin-bottom: 10px;
     }
     .big-picture {
-        transform: translateY(19%);
+        /* transform: translateY(19%); */
         width: 195px;
-        bottom: -17px;
+        bottom: -53px;
     }
     .med-car {
         transform: translateY(47%);
@@ -1180,9 +1205,9 @@
         right: -7px;
     }
     .big-picture {
-        transform: translateY(19%);
+        /* transform: translateY(19%); */
         width: 160px;
-        bottom: -4px;
+        bottom: -34px;
     }
     .header::before {
         top: 56%;
