@@ -558,7 +558,7 @@
         /* transform: translateY(25%); */
         right: 0px;
         width: 290px;
-        bottom: -81px;
+        bottom: -73px;
     }
     .med-car {
         right: 0;
@@ -894,7 +894,7 @@
         margin-bottom: 50px;
     } */
     .big-picture {
-        bottom: -87px;
+        bottom: -80px;
     }
     .container-nav {
         padding: 20px;
@@ -975,7 +975,7 @@
     .big-picture {
         /* transform: translateY(25%); */
         width: 265px;
-        bottom: -67px;
+        bottom: -61px;
     }
     .header::before {
         top: 63%;
@@ -1015,7 +1015,7 @@
     .big-picture {
         /* transform: translateY(19%); */
         width: 195px;
-        bottom: -53px;
+        bottom: -47px;
     }
     .med-car {
         transform: translateY(47%);
@@ -1207,7 +1207,7 @@
     .big-picture {
         /* transform: translateY(19%); */
         width: 160px;
-        bottom: -34px;
+        bottom: -28px;
     }
     .header::before {
         top: 56%;
