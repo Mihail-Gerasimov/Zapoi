@@ -304,13 +304,13 @@ button:focus {
     font-size: 11px;
     line-height: 13px;
     color: #E0E0E0;
-    box-shadow: inset 0px 0px 5px rgba(7, 7, 7, 0.3) !important;
-    -webkit-box-shadow: inset 0px 0px 5px rgba(7, 7, 7, 0.3) !important;
+    box-shadow: inset 0px 0px 5px rgba(158, 156, 156);
+    -webkit-box-shadow: inset 0px 0px 5px rgba(158, 156, 156);
 }
 
 .header-input:hover:focus {
-    -webkit-box-shadow: inset 0px 0px 5px rgba(7, 7, 7, 0.3) !important;
-    box-shadow: inset 0px 0px 5px rgba(7, 7, 7, 0.3) !important;
+    -webkit-box-shadow: inset 0px 0px 5px rgba(158, 156, 156) !important;
+    box-shadow: inset 0px 0px 5px rgba(158, 156, 156) !important;
 }
 
 .header-input__number {
