@@ -306,6 +306,7 @@ button:focus {
     color: #E0E0E0;
     box-shadow: inset 0px 0px 5px rgba(158, 156, 156);
     -webkit-box-shadow: inset 0px 0px 5px rgba(158, 156, 156);
+    background-position-y: 0;
 }
 
 .header-input:hover:focus {
