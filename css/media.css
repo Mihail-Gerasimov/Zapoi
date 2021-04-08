@@ -1012,10 +1012,18 @@
     .header-presentation__item {
         margin-bottom: 10px;
     }
+    .header-form__btn {
+        font-size: 15px;
+        padding: 14px 0;
+    }
     .big-picture {
         /* transform: translateY(19%); */
         width: 195px;
-        bottom: -47px;
+        bottom: -78px;
+    }
+    .header-input {
+        font-size: 15px;
+        padding: 15px 0 15px 42px !important;
     }
     .med-car {
         transform: translateY(47%);
@@ -1039,13 +1047,15 @@
         margin-bottom: 8px;
     }
     .why__block--item {
+        padding: 0 5px;
         margin-bottom: 10px !important;
-        width: 134px;
-        height: 170px;
+        width: auto;
+        height: 185px;
         justify-content: flex-start;
     }
     .why-text {
-        width: 120px;
+        width: auto;
+        font-size: 13px;
     }
     /* choice */
     /* warranty */
@@ -1074,7 +1084,8 @@
     .medical-mobile {
         z-index: 5;
         width: auto;
-        right: -100px;
+        right: auto;
+        left: 200px;
         bottom: 55px;
     }
     /* money */
@@ -1148,6 +1159,9 @@
         margin: 0 auto 35px;
     }
     /* helps */
+    .help-form__top {
+        padding: 15px 5px;
+    }
     .footer-text__two {
         width: auto;
         text-align: start;
@@ -1168,15 +1182,20 @@
     /* money */
     .money-prices {
         margin-left: -20px;
-        padding: 0 20px;
+        padding: 0 35px;
         height: 240px;
     }
     .money-prices__text {
         font-size: 10px;
     }
     .money-prices__sum {
-        padding: 8px 20px;
-        font-size: 12px;
+        padding: 10px 35px;
+        font-size: 15px;
+    }
+    .medical-mobile {
+        right: auto;
+        left: 165px;
+        bottom: 55px;
     }
     .express-blokc {
         margin-left: -42px;
@@ -1200,14 +1219,13 @@
         height: 20px;
     }
     .med-car {
-        transform: translateY(68%);
+        transform: translateY(87%);
         width: 140px;
-        right: -7px;
+        right: 8px;
     }
     .big-picture {
-        /* transform: translateY(19%); */
         width: 160px;
-        bottom: -28px;
+        bottom: -59px;
     }
     .header::before {
         top: 56%;
@@ -1254,6 +1272,10 @@
     }
     /* success */
     /* helps */
+    .help-block--text {
+        width: auto;
+        font-size: 14px;
+    }
     .title-help {
         margin-bottom: 30px;
         width: 175px;
@@ -1263,7 +1285,24 @@
     }
     /* footer */
     .footer-text {
-        font-size: 9px;
+        font-size: 15px;
     }
     /* footer */
+}
+
+@media (max-width: 375px) {
+    .money-prices {
+        padding: 0 20px;
+    }
+    .money-prices__sum {
+        padding: 10px 30px;
+    }
+    .medical-mobile {
+        right: auto;
+        left: 140px;
+        bottom: 55px;
+    }
+    .why__block--item {
+        height: 208px;
+    }
 }
