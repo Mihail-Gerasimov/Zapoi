@@ -860,7 +860,7 @@
     }
     /* footer */
     .fixed-number {
-        width: 130px;
+        width: 100px;
     }
 }
 
@@ -951,9 +951,9 @@
     }
     /* success */
     /* success */
-    .fixed-number {
+    /* .fixed-number {
         width: 99px;
-    }
+    } */
 }
 
 @media (max-width: 525px) {

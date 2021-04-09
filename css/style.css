@@ -1171,8 +1171,8 @@ button:focus {
 /* footer */
 
 .fixed-number {
-    right: 0;
-    bottom: 0;
+    right: 30px;
+    bottom: 30px;
     z-index: 1000;
     transition: 0.4s;
 }
